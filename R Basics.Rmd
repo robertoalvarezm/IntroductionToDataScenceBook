@@ -1,0 +1,11 @@
+---
+title: "R Basics"
+author: "Roberto Álvarez"
+date: "12/8/2021"
+output: html_document
+---
+
+#R Basics
+
+## Case study: US Gun Murders
+

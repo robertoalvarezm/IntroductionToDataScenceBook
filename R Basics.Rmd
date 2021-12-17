@@ -5,7 +5,6 @@ date: "12/8/2021"
 output: html_document
 ---
 
-#R Basics
+# R Basics
 
 ## Case study: US Gun Murders
-

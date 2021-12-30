@@ -181,7 +181,11 @@ pre code {
 <div id="objects" class="section level3">
 <h3>Objects</h3>
 <p>Suppose a high school student asks us for help solving several quadratic equations of the form $ax^2+bx+c=0$. The quadratic formula gives us the solutions:</p>
-<p><span class="math display">\[\frac{b+\sqrt{b^2-4ac}}{2a}\]</span> and $$$$ which of course change depending on the values of $a$, $b$, and $c$. One advantage of programming languages is that we can define variables and write expressions with these variables, similar to how we do so in math, but obtain a numeric solution. We will write out general code for the quadratic equation below, but if we are asked to solve $x^2+x−1=0$, then we define:</p>
+<p><span class="math display">\[\frac{b+\sqrt{b^2-4ac}}{2a}\]</span> and</p>
+<p><span class="math display">\[
+\frac{b-\sqrt{b^2-4ac}}{2a}
+\]</span></p>
+<p>which of course change depending on the values of $a$, $b$, and $c$. One advantage of programming languages is that we can define variables and write expressions with these variables, similar to how we do so in math, but obtain a numeric solution. We will write out general code for the quadratic equation below, but if we are asked to solve $x^2+x−1=0$, then we define:</p>
 <pre><code>a &lt;- 1</code></pre>
 </div>
 </div>
